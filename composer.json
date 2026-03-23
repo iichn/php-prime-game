@@ -2,6 +2,7 @@
     "name": "iichn/prime",
     "description": "Prime number game",
     "type": "project",
+    "license": "MIT",
     "autoload": {
     "files": [
         "src/Controller.php",
