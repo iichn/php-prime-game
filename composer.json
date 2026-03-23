@@ -1,0 +1,27 @@
+{
+    "name": "iichn/prime",
+    "description": "Prime number game",
+    "type": "project",
+    "autoload": {
+    "files": [
+        "src/Controller.php",
+        "src/View.php",
+        "src/Database.php"
+    ]
+    },
+    "authors": [
+        {
+            "name": "Данчк",
+            "email": "nice.kalachin17@gmail.com"
+        }
+    ],
+    "require": {
+        "wp-cli/php-cli-tools": "^0.12.8"
+    },
+    "bin": [
+        "bin/prime"
+    ],
+    "require-dev": {
+        "squizlabs/php_codesniffer": "^4.0"
+    }
+}
